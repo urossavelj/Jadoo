@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header id="header_desktop">
+      <nav>
+        <ul>
+          <li>
+            <img
+              id="header_logo"
+              src="https://placehold.co/100x30"
+              alt="logo"
+            />
+          </li>
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#book">Hotels</a></li>
+          <li><a href="#flights">Flights</a></li>
+          <li><a href="#bookings">Bookings</a></li>
+          <li><a href="#login">Login</a></li>
+          <li><a id="header_signup" href="#Signup">Signup</a></li>
+          <li>
+            <div class="dropdown">
+              <a class="dropbtn">EN</a><i class="fa fa-caret-down"></i>
+              <div class="dropdown-content">
+                <a href="#">SL</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Top Navigation Menu -->
+    <header id="header_mobile">
+      <div class="topnav">
+        <img id="header_logo" src="https://placehold.co/100x30" alt="logo" />
+        <div id="myLinks">
+          <a href="#destinations">Destinations</a>
+          <a href="#book">Hotels</a>
+          <a href="#Flights">Flights</a>
+          <a href="#Bookings">Bookings</a>
+          <a href="#Login">Login</a>
+          <a href="#Signup">Signup</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>
+
+    <section>
+      <div class="row">
+        <div class="column content">
+          <h5 class="align_left orange_title">
+            BEST DESTINATIONS AROUND THE WORLD
+          </h5>
+          <h1 class="align_left">Travel, enjoy and live a new and full life</h1>
+          <p class="align_left">
+            Built Wicket longer admire do barton vanity itself do in it.
+            Preferred to sportsmen it engrossed listening. Park gate sell they
+            west hard for the.
+          </p>
+          <div class="buttons">
+            <button class="find-out-more">Find out more</button>
+            <div><button class="play-demo">&#9658;</button>Play Demo</div>
+          </div>
+        </div>
+        <div class="column" id="hero"></div>
+      </div>
+    </section>
+
+    <section id="destinations">
+      <h5 class="center">Top Selling</h5>
+      <h2 class="center">Top Destinations</h2>
+      <div class="card-container">
+        <div class="card">
+          <img
+            src="https://placehold.co/225x300"
+            alt="Colosseum in Rome, Italy"
+          />
+          <div>
+            <div class="details_flex">
+              <div class="card_details_text"><h5>Rome, Italy</h5></div>
+              <div class="price"><h5>$5.42k</h5></div>
+            </div>
+            <p class="duration">10 Days Trip</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://placehold.co/225x300" alt="Big Ben in London, UK" />
+          <div>
+            <div class="details_flex">
+              <div class="card_details_text">
+                <h5 class="card_details_text">London, UK</h5>
+              </div>
+              <div class="price"><h5>$4.2k</h5></div>
+            </div>
+            <p class="duration">12 Days Trip</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://placehold.co/225x300" alt="Scenic view in Europe" />
+          <div>
+            <div class="details_flex">
+              <div class="card_details_text"><h5>Full Europe</h5></div>
+              <div class="price"><h5>$15k</h5></div>
+            </div>
+            <p class="duration">28 Days Trip</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking-steps">
+      <div class="row">
+        <div class="column content">
+          <div class="steps-content">
+            <h2>Easy and Fast</h2>
+            <h1>Book Your Next Trip In 3 Easy Steps</h1>
+            <div class="steps">
+              <div class="step">
+                <img
+                  src="https://placehold.co/50x50"
+                  alt="Choose Destination Icon"
+                  class="step-icon"
+                />
+                <div class="step-text">
+                  <h3>Choose Destination</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.
+                  </p>
+                </div>
+              </div>
+              <div class="step">
+                <img
+                  src="https://placehold.co/50x50"
+                  alt="Make Payment Icon"
+                  class="step-icon"
+                />
+                <div class="step-text">
+                  <h3>Make Payment</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.
+                  </p>
+                </div>
+              </div>
+              <div class="step">
+                <img
+                  src="https://placehold.co/50x50"
+                  alt="Reach Airport Icon"
+                  class="step-icon"
+                />
+                <div class="step-text">
+                  <h3>Reach Airport on Selected Date</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Urna, tortor tempus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column" id="booking_hero"></div>
+      </div>
+    </section>
+    <section>
+      <div class="airline-row">
+        <img
+          src="https://placehold.co/130x50"
+          alt="Axon Airlines Logo"
+          class="airline-logo"
+        />
+        <img
+          src="https://placehold.co/100x70"
+          alt="Jetstar Logo"
+          class="airline-logo"
+        />
+        <img
+          src="https://placehold.co/100x50"
+          alt="Expedia Logo"
+          class="airline-logo"
+        />
+        <img
+          src="https://placehold.co/110x30"
+          alt="QANTAS Logo"
+          class="airline-logo"
+        />
+        <img
+          src="https://placehold.co/120x40"
+          alt="Alitalia Logo"
+          class="airline-logo"
+        />
+      </div>
+    </section>
+
+    <section class="subscribe" id="subscribe">
+      <h2>
+        Subscribe to get Information, latest news and other interesting offers
+        about Jadoo
+      </h2>
+      <form>
+        <div class="form-row">
+          <input
+            type="text"
+            placeholder="Your name"
+            id="name"
+            name="name"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Your email"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-columns">
+          <div class="footer-column jadoo">
+            <h2>Jadoo.</h2>
+            <div>
+              Book your trip in minute, get full control for much longer
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Mobile</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact</h3>
+            <ul>
+              <li><a href="#">Help/FAQ</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Affiliates</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>More</h3>
+            <ul>
+              <li><a href="#">Airline fees</a></li>
+              <li><a href="#">Airline</a></li>
+              <li><a href="#">Low fare tips</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>All rights reserved @jadoo.co</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
